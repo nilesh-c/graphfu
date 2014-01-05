@@ -1,0 +1,29 @@
+6,1,2,323,280,43,01-08-2008
+2, 2,1,33,33,33,01-08-2008
+2, 4,1,10,10,10,01-08-2008
+4, 4,1,25,25,25,01-08-2008
+2, 5,1,36,36,36,01-08-2008
+9657127906,9659231959,1,66,66,66,01-08-2008
+9659386065,965B101,20,220,12,9,01-08-2008
+9657596837,9655996479,1,72,72,72,01-08-2008
+9654446505,965B101,2,14,7,7,01-08-2008
+9659847191,9656785230,2,42,34,8,01-08-2008
+
+  (6, 1)
+  (2, 2)
+  (2, 4)
+  (4, 4)
+  (2, 5)
+  (1, 6)
+  (2, 6)
+  (4, 6)
+  (5, 7)
+  (9, 8)
+  
+  So, Poushali and Rajanya, their project is on big data analysis. Cutting the crap, what they are actually doing is trying to learn how to use Hadoop, no research involved. And they've made a couple of week worth of progress in all of six months. I had to walk her through compiling a Java program, setting the classpath and stuff like that. I don't know what good their mentor is of.
+
+The Assistant Professor they're working under at JU, he seems to have an interest in distributed computing. Now I need to test some code I wrote during my NIST internship (and rewriting, over the past week). It's MapReduce code to compute centralities in graphs, optimized for huge million/billion-node graphs. The state of the art in this field is a library called Pegasus, the author of which has half published over a dozen research papers on said library. The thing I've written is more I/O efficient than Pegasus, involves lesser number of stages per iteration, has some sparse matrix blocking tricks, and I think it's a lot faster than Pegasus. I need a 10-20 node (at least, but it's relative obviously, 8 is okay..25 is great, 50 is brilliant, 100 is unbelievable) cluster to compare his and my implementations. Then I need to write a fresh report for my NIST mentor. If this gives favorable results, it might lead to a publication, but ota onek porer kotha.
+
+I asked Poushali if she can tell her mentor about this, tell him about me, that I've a lot of experience with this stuff, and ask him if he would like to collaborate with me, and if he doesn't have the time if he can just provide me with the infrastructure, a lab with PCs for me to run my tests. JU has more PCs than the students need. And guess what, ei ajke bolchi kalke bolbo kore kore she hasn't told her mentor yet; it's been more than a month now.
+
+One fine morning she calls me up and says, Koushik Mallick asked her in college about what she's working on and asked her if she could help him setup a Hadoop cluster. Now KM doesn't 
